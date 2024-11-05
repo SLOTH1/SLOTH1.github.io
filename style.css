@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background-color: #0a0a0a;
+  --text-color: #fcf2f7;
+  --link-text-color: #ff3d98;
+}
+
+a:hover {
+  --link-text-color: #eeb9da;
+}
+
+a.navlink {
+  font-family: "Ubuntu Mono", monospace;
+  font-weight: 700;
+}
+
+a {
+  color: var(--link-text-color);
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
